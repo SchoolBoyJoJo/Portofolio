@@ -39,7 +39,11 @@
         margin-top: 0;
     }
 }
-
+@media screen and (max-width: 900px){
+    #about{
+        margin-top: 20rem;
+    }
+}
 @media screen and (max-width: 600px){
     #contact, footer{
         height: 40vh;
@@ -47,6 +51,9 @@
     #profile{
         height: 83vh;
         margin-bottom: 0;
+    }
+    #about{
+        margin-top: 1rem;
     }
     article{
         font-size: 1rem;
@@ -77,7 +84,7 @@
     }
     .section__pic-container{
         width: auto;
-        height: 40vw;
+        height: 60vw;
         justify-content: center;
     }
     .section__text p2{
